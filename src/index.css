@@ -134,3 +134,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+a {
+  text-decoration: none;
+  color: rgba(189, 189, 189, 1);
+  &:hover {
+    color: rgba(79, 79, 79, 1);
+  }
+}

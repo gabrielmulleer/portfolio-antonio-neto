@@ -1,0 +1,12 @@
+@import './styles/_variables.scss';
+.app {
+  padding: 0 1rem;
+
+  @media (min-width: 728px) {
+    padding: 0.63rem 1.25rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 0 5rem;
+  }
+}
