@@ -1,0 +1,67 @@
+@import '/src/styles/variables';
+.wrapper{
+display: flex;
+flex-direction: column;
+background-color: $Gray-1;
+border-radius: 0.75rem;
+@media (min-width: $screen-lg-min) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+
+&__container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 1.5rem 2rem;
+    gap: 2.75rem;
+    flex-grow: 1;
+    @media (min-width: $screen-lg-min) {
+        padding: 2rem 2.25rem 1rem 3.25rem;
+        gap: 2.5rem;
+      }
+      @media (min-width: $screen-xl-min) {
+        padding: 2rem 5.5rem 2.25rem 2rem;
+        gap: 7.5rem;
+      }
+}
+&__info{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1.5rem;
+    color: $White;
+    &_company{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    &_case{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    &_text{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+&__button{
+    align-items: center;
+    background-color: $Green-2;
+    border-radius: .5rem;
+    color: $White;
+    display: flex;
+    font-size: 1.25rem;
+    gap: 6px;
+    justify-content: center;   
+    padding: .625rem 1.25rem;
+    width: 7.125rem;
+}
+&__img{
+    flex-grow: 1;
+    object-fit: cover;
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
+    @media (min-width: $screen-lg-min) {
+        border-radius: 0rem 0.75rem 0.75rem 0rem;
+      }
+}
+}
