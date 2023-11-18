@@ -17,22 +17,24 @@ export default function Main() {
         </section>
         <section className={styles.wrapper__work}>
           <Tag>WORK</Tag>
-          <Cases
-            Company='Grupo Boticário'
-            Case='Mensageria'
-            Img='https://source.unsplash.com/random/300x300?r=2'
-          >
-            Lorem ipsum dolor sit amet consectetur. Blandit non massa
-            pellentesque velit nunc in a fringilla tortor.
-          </Cases>
-          <Cases
-            Company='Accenture'
-            Case='Consulting'
-            Img='https://source.unsplash.com/random/300x300?r=1'
-          >
-            Lorem ipsum dolor sit amet consectetur. Blandit non massa
-            pellentesque velit nunc in a fringilla tortor.
-          </Cases>
+          <div className={styles.wrapper__work_container}>
+            <Cases
+              Company='Grupo Boticário'
+              Case='Mensageria'
+              Img='https://source.unsplash.com/random/300x300?r=2'
+            >
+              Lorem ipsum dolor sit amet consectetur. Blandit non massa
+              pellentesque velit nunc in a fringilla tortor.
+            </Cases>
+            <Cases
+              Company='Accenture'
+              Case='Consulting'
+              Img='https://source.unsplash.com/random/300x300?r=1'
+            >
+              Lorem ipsum dolor sit amet consectetur. Blandit non massa
+              pellentesque velit nunc in a fringilla tortor.
+            </Cases>
+          </div>
         </section>
       </main>
     </>

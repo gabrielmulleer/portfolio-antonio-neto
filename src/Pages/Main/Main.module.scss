@@ -35,4 +35,12 @@
               }
         }
     }
+    &__work{
+        
+        &_container{
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;}
+    }
 }
