@@ -1,0 +1,15 @@
+@import '/src/styles/variables';
+
+.wrapper{
+    padding: 3rem 0 ;
+    display: flex;
+    gap: 3rem;
+    &__who{
+        margin-top: 4.13;
+        &_text{
+            margin-top: 1rem;
+            font-size: 22px;
+            color: $Gray-1;
+        }
+    }
+}
