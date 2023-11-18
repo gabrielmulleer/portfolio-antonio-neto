@@ -1,12 +1,18 @@
 # Progress
-Header: 
+
+Header:
+
 - Responsive ✓
 - Dropdown functionality ✖
 
-Main: 
-- Home ✖
-- About ✖
-- Work ✖
+Main:
 
-Footer: 
+- Who ✓
+- Work:
+  -- Components ✓
+  -- Fix image size: ✖
+  -- Max width cards: ✖
+
+Footer:
+
 - Responsive ✓

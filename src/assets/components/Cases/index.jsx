@@ -4,6 +4,7 @@ import { GoArrowRight } from 'react-icons/go';
 export default function Cases({ Company, Case, children, Img }) {
   return (
     <div className={styles.wrapper}>
+      <img src={Img} alt='' className={styles.wrapper__img} />
       <div className={styles.wrapper__container}>
         <div className={styles.wrapper__info}>
           <h3 className={styles.wrapper__info_company}>{Company}</h3>
@@ -14,8 +15,6 @@ export default function Cases({ Company, Case, children, Img }) {
           View <GoArrowRight size='20px' />
         </a>
       </div>
-
-      <img src={Img} alt='' className={styles.wrapper__img} />
     </div>
   );
 }

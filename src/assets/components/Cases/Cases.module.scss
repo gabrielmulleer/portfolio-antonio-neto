@@ -5,15 +5,17 @@ flex-direction: column;
 background-color: $Gray-1;
 border-radius: 0.75rem;
 @media (min-width: $screen-lg-min) {
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
   }
+
 
 &__container{
     display: flex;
     flex-direction: column;
     padding: 2rem 2rem 1.5rem 2rem;
     gap: 2.75rem;
+    flex-grow: 1;
     @media (min-width: $screen-lg-min) {
         padding: 2rem 2.25rem 1rem 3.25rem;
         gap: 2.5rem;
@@ -55,7 +57,9 @@ border-radius: 0.75rem;
     width: 7.125rem;
 }
 &__img{
-    border-radius: 0rem 0rem 0.75rem 0.75rem;
+    flex-grow: 1;
+    object-fit: cover;
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
     @media (min-width: $screen-lg-min) {
         border-radius: 0rem 0.75rem 0.75rem 0rem;
       }
