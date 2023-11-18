@@ -14,6 +14,9 @@ export default function Main() {
             Based in Brazil, currently designing at Grupo Boticário.
           </p>
         </section>
+        <section className={styles.wrapper__work}>
+          <Tag>WORK</Tag>
+        </section>
       </main>
     </>
   );
