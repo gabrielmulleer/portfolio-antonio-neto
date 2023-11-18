@@ -6,6 +6,7 @@ background-color: $Gray-1;
 border-radius: 0.75rem;
 @media (min-width: $screen-lg-min) {
     flex-direction: row;
+    justify-content: space-between;
   }
 
 &__container{
@@ -16,6 +17,10 @@ border-radius: 0.75rem;
     @media (min-width: $screen-lg-min) {
         padding: 2rem 2.25rem 1rem 3.25rem;
         gap: 2.5rem;
+      }
+      @media (min-width: $screen-xl-min) {
+        padding: 2rem 5.5rem 2.25rem 2rem;
+        gap: 7.5rem;
       }
 }
 &__info{
