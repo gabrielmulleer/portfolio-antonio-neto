@@ -1,15 +1,26 @@
 @import '/src/styles/variables';
 
 .wrapper{
-    padding: 3rem 0 ;
     display: flex;
+    padding: 3rem 0 ;
     gap: 3rem;
+    @media (min-width: $screen-lg-min) {
+        padding: 2rem 0 ;
+        gap: 2rem;
+      }
     &__who{
-        margin-top: 4.13;
+        margin-top: 4.12rem;
+        @media (min-width: $screen-lg-min) {
+            margin-top: 0;
+          }
         &_text{
             margin-top: 1rem;
             font-size: 22px;
             color: $Gray-1;
+            @media (min-width: $screen-lg-min) {
+                margin-top: 2rem;
+                font-size: 32px;
+              }
         }
     }
 }
