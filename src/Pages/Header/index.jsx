@@ -13,7 +13,6 @@ export default function Header() {
         <h3 className={styles.wrapper__logo_title}>Antônio Neto</h3>
       </div>
       <IoIosMenu size='30px' color='#333' className={styles.wrapper__icon} />
-
       <nav className={styles.menu}>
         <ul className={styles.menu__dropdown}>
           <li>
