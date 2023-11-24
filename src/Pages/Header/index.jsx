@@ -34,13 +34,13 @@ export default function Header() {
       >
         <ul className={styles.menu__dropdown}>
           <li>
-            <a href='#'>Home</a>
+            <a href='/'>Home</a>
           </li>
           <li>
             <a href='#'>About</a>
           </li>
           <li>
-            <a href='#'>Work</a>
+            <a href='#'>Resume</a>
           </li>
         </ul>
       </nav>
