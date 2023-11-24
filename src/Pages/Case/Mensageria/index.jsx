@@ -3,7 +3,10 @@ export default function Mensageria() {
   return (
     <>
       <div className={styles.wrapper}>
-        <img src='#' alt='Mensageria Banner' />
+        <img
+          src='assets/img/mensageria/mensageria-banner.png'
+          alt='Mensageria Banner'
+        />
         <h1 className={styles.wrapper__title}>
           Automated messages via Whatsapp
         </h1>
@@ -39,17 +42,31 @@ export default function Mensageria() {
         <div className={styles.wrapper__container}>
           <nav className={styles.wrapper__container_sidebar}>
             <ul>
-              <li>Challenge</li>
-              <li>Research</li>
-              <li>Defining</li>
-              <li>Ideation</li>
-              <li>Concept</li>
-              <li>Result</li>
-              <li>Back to top</li>
+              <li>
+                <a href='#challenge'>Challenge</a>
+              </li>
+              <li>
+                <a href='#research'>Research</a>
+              </li>
+              <li>
+                <a href='#defining'>Defining</a>
+              </li>
+              <li>
+                <a href='#ideation'>Ideation</a>
+              </li>
+              <li>
+                <a href='#concept'>Concept</a>
+              </li>
+              <li>
+                <a href='#result'>Result</a>
+              </li>
+              <li>
+                <a href='#back-to-top'>Back to top</a>
+              </li>
             </ul>
           </nav>
           <div className={styles.wrapper__container_content}>
-            <section>
+            <section id='challenge'>
               <h2>Challenge</h2>
               <h3>Identifying the Problem</h3>
               <p>
@@ -71,7 +88,7 @@ export default function Mensageria() {
                 clients.
               </p>
             </section>
-            <section>
+            <section id='research'>
               <h2>Research</h2>
               <h3>Methodological Approach</h3>
               <ol type='1'>
@@ -114,9 +131,9 @@ export default function Mensageria() {
                 existing workflows of salons, and capable of offering
                 personalized, automated communication.
               </p>
-              <img src='' alt='' />
+              <img src='assets/img/mensageria/challenge-img1.png' alt='' />
             </section>
-            <section>
+            <section id='defining'>
               <h2>Defining</h2>
               <h3>Problem Definition</h3>
               <p>
@@ -162,9 +179,9 @@ export default function Mensageria() {
                   consistent communication.
                 </li>
               </ul>
-              <img src='' alt='' />
+              <img src='assets/img/mensageria/defining-img1.png' alt='' />
             </section>
-            <section>
+            <section id='ideation'>
               <h2>Ideation</h2>
               <h3>Brainstorming Sessions</h3>
               <p>
@@ -216,7 +233,7 @@ export default function Mensageria() {
                 phase, with the feedback system planned for a later update.
               </p>
             </section>
-            <section>
+            <section id='concept'>
               <h2>Concept</h2>
               <h3>Finalizing the Solution Concept</h3>
               <h4>
@@ -250,7 +267,7 @@ export default function Mensageria() {
                   ensuring a smooth addition to the salon's workflow.
                 </li>
               </ol>
-              <img src='' alt='' />
+              <img src='assets/img/mensageria/concept-img1.png' alt='' />
               <h3>Prototyping and User Testing</h3>
               <p>
                 High-fidelity prototypes of the tool were developed, showcasing
@@ -259,9 +276,9 @@ export default function Mensageria() {
                 testing sessions with salon professionals to gather feedback and
                 refine the concept.
               </p>
-              <img src='' alt='' />
+              <img src='assets/img/mensageria/concept-gif1.gif' alt='' />
             </section>
-            <section>
+            <section id='result'>
               <h2>Result</h2>
               <h3>Implementation and Impact</h3>
               <h4>
