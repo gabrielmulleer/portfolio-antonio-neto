@@ -21,18 +21,13 @@ export default function Main() {
             <Cases
               Company='Grupo Boticário'
               Case='Mensageria'
-              Img='https://source.unsplash.com/random/300x300?r=2'
+              Img='assets/img/mensageria/mensageria-banner.png'
             >
-              Lorem ipsum dolor sit amet consectetur. Blandit non massa
-              pellentesque velit nunc in a fringilla tortor.
-            </Cases>
-            <Cases
-              Company='Accenture'
-              Case='Consulting'
-              Img='https://source.unsplash.com/random/300x300?r=1'
-            >
-              Lorem ipsum dolor sit amet consectetur. Blandit non massa
-              pellentesque velit nunc in a fringilla tortor.
+              The project focuses on advancing communication for beauty
+              establishments by offering automated messaging services through
+              WhatsApp, using Salão 99 platform. This approach significantly
+              improves customer relations and modernizes the way salons interact
+              with their clients.
             </Cases>
           </div>
         </section>
