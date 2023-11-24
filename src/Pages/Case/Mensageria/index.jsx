@@ -48,7 +48,45 @@ export default function Mensageria() {
               <li>Back to top</li>
             </ul>
           </nav>
-          <div className={styles.wrapper__container_content}></div>
+          <div className={styles.wrapper__container_content}>
+            <section>
+              <h2>Challenge</h2>
+              <h3>Identifying the Problem</h3>
+              <p>
+                In the dynamic world of beauty salons, effective communication
+                with clients is crucial. Salons face a significant challenge:
+                the manual and time-consuming process of sending appointment
+                reminders via WhatsApp. This traditional method is prone to
+                errors and forgetfulness, leading to no-shows which negatively
+                impact the salon's revenue and operational efficiency.
+              </p>
+              <h3>The Need for an Innovative Solution</h3>
+              <p>
+                The need was clear: a solution that would automate
+                communication, ensuring clients received timely and personalized
+                reminders, and at the same time, be user-friendly for salon
+                professionals. This challenge presented a unique opportunity to
+                explore how UX can transform a routine task into a more
+                efficient and enjoyable experience for both salons and their
+                clients.
+              </p>
+            </section>
+            <section>
+              <h2>Research</h2>
+            </section>
+            <section>
+              <h2>Defining</h2>
+            </section>
+            <section>
+              <h2>Ideation</h2>
+            </section>
+            <section>
+              <h2>Concept</h2>
+            </section>
+            <section>
+              <h2>Result</h2>
+            </section>
+          </div>
         </div>
       </div>
     </>
