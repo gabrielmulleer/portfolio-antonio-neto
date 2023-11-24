@@ -118,6 +118,51 @@ export default function Mensageria() {
             </section>
             <section>
               <h2>Defining</h2>
+              <h3>Problem Definition</h3>
+              <p>
+                Building on the insights from our research, we defined the core
+                problem: Salon professionals need an efficient way to manage
+                client communication, particularly for appointment reminders,
+                without investing excessive time or encountering the risks of
+                manual errors. The goal was to create a solution that enhances
+                client engagement while streamlining salon operations.
+              </p>
+              <h3>Setting Objectives</h3>
+              <p>
+                The primary objective was to develop a WhatsApp automation tool
+                that:
+              </p>
+              <ul>
+                <li>
+                  Reduces No-Shows: Significantly cut down the rate of missed
+                  appointments.
+                </li>
+                <li>
+                  Saves Time: Free up valuable time for salon professionals that
+                  was previously spent on manual messaging.
+                </li>
+                <li>
+                  Enhances Client Experience: Provide a more reliable and
+                  personalized communication channel for clients.
+                </li>
+              </ul>
+              <h3>Defining User Needs</h3>
+              <p>Through our research, we identified the key user needs:</p>
+              <ul>
+                <li>
+                  Ease of Use: The tool must be intuitive and straightforward
+                  for salon staff with varying levels of tech-savviness.
+                </li>
+                <li>
+                  Customization: Ability to personalize messages to maintain the
+                  unique voice of each salon.
+                </li>
+                <li>
+                  Reliability: A robust system that salon owners can rely on for
+                  consistent communication.
+                </li>
+              </ul>
+              <img src='' alt='' />
             </section>
             <section>
               <h2>Ideation</h2>
