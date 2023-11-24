@@ -73,6 +73,48 @@ export default function Mensageria() {
             </section>
             <section>
               <h2>Research</h2>
+              <h3>Methodological Approach</h3>
+              <ol type='1'>
+                <li>
+                  Quantitative Survey: Conducting an online survey with salon
+                  owners and beauty professionals to gather quantitative data on
+                  their communication habits and challenges faced.
+                </li>
+                <li>
+                  Qualitative Interviews: In-depth interviews with a
+                  representative selection of salon professionals to understand
+                  their experiences, needs, and expectations regarding a
+                  messaging solution.
+                </li>
+              </ol>
+              <h3>Key Insights</h3>
+              <h4>The insights gathered revealed:</h4>
+              <ul>
+                <li>
+                  Preference for WhatsApp: An overwhelming majority of salons
+                  preferred using WhatsApp as their primary communication
+                  channel with clients.
+                </li>
+                <li>
+                  Frustrations with Manual Process: Many expressed frustration
+                  with the time and effort required to send reminders manually.
+                </li>
+                <li>
+                  Interest in Automation: There was a clear interest in an
+                  automated solution that could manage communications
+                  efficiently and in a personalized manner.
+                </li>
+              </ul>
+              <h3>Data Analysis and Conclusions</h3>
+              <p>
+                The analysis of the collected data helped to formulate a
+                detailed understanding of the problem and to shape the direction
+                of the solution design. It became evident that a successful
+                solution would need to be intuitive, easily integrable into the
+                existing workflows of salons, and capable of offering
+                personalized, automated communication.
+              </p>
+              <img src='' alt='' />
             </section>
             <section>
               <h2>Defining</h2>
