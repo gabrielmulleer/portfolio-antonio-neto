@@ -218,6 +218,48 @@ export default function Mensageria() {
             </section>
             <section>
               <h2>Concept</h2>
+              <h3>Finalizing the Solution Concept</h3>
+              <h4>
+                Based on our ideation and initial prototyping, we converged on a
+                concept that promised to address the needs effectively. The
+                final concept was a WhatsApp automation tool tailored
+                specifically for beauty salons, encapsulating the following
+                features:
+              </h4>
+              <ol>
+                <li>
+                  Automated Appointment Reminders: A system that sends automated
+                  reminders to clients for their upcoming appointments. This
+                  feature is designed to significantly reduce no-shows by
+                  ensuring clients remember their appointments.
+                </li>
+                <li>
+                  Personalized Greetings for Special Occasions: The tool allows
+                  salons to send personalized messages for clients' birthdays
+                  and other special occasions, fostering a stronger client-salon
+                  relationship.
+                </li>
+                <li>
+                  Customizable Templates: Salon owners can customize the message
+                  templates to reflect their brand's voice and tone, providing a
+                  personal touch to automated messages.
+                </li>
+                <li>
+                  Integration with Salon Management Software: The system
+                  seamlessly integrates with existing salon management tools,
+                  ensuring a smooth addition to the salon's workflow.
+                </li>
+              </ol>
+              <img src='' alt='' />
+              <h3>Prototyping and User Testing</h3>
+              <p>
+                High-fidelity prototypes of the tool were developed, showcasing
+                the user interface and demonstrating the functionality of the
+                key features. These prototypes were then used in further user
+                testing sessions with salon professionals to gather feedback and
+                refine the concept.
+              </p>
+              <img src='' alt='' />
             </section>
             <section>
               <h2>Result</h2>
