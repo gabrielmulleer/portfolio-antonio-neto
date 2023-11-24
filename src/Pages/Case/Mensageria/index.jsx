@@ -87,33 +87,35 @@ export default function Mensageria() {
               </h4>
               <ol type='1'>
                 <li>
-                  Quantitative Survey: Conducting an online survey with salon
-                  owners and beauty professionals to gather quantitative data on
-                  their communication habits and challenges faced.
+                  <strong>Quantitative Survey:</strong> Conducting an online
+                  survey with salon owners and beauty professionals to gather
+                  quantitative data on their communication habits and challenges
+                  faced.
                 </li>
                 <li>
-                  Qualitative Interviews: In-depth interviews with a
-                  representative selection of salon professionals to understand
-                  their experiences, needs, and expectations regarding a
-                  messaging solution.
+                  <strong>Qualitative Interviews:</strong> In-depth interviews
+                  with a representative selection of salon professionals to
+                  understand their experiences, needs, and expectations
+                  regarding a messaging solution.
                 </li>
               </ol>
               <h3>Key Insights</h3>
               <h4>The insights gathered revealed:</h4>
               <ul>
                 <li>
-                  Preference for WhatsApp: An overwhelming majority of salons
-                  preferred using WhatsApp as their primary communication
-                  channel with clients.
+                  <strong>Preference for WhatsApp:</strong> An overwhelming
+                  majority of salons preferred using WhatsApp as their primary
+                  communication channel with clients.
                 </li>
                 <li>
-                  Frustrations with Manual Process: Many expressed frustration
-                  with the time and effort required to send reminders manually.
+                  <strong>Frustrations with Manual Process:</strong> Many
+                  expressed frustration with the time and effort required to
+                  send reminders manually.
                 </li>
                 <li>
-                  Interest in Automation: There was a clear interest in an
-                  automated solution that could manage communications
-                  efficiently and in a personalized manner.
+                  <strong>Interest in Automation:</strong> There was a clear
+                  interest in an automated solution that could manage
+                  communications efficiently and in a personalized manner.
                 </li>
               </ul>
               <h3>Data Analysis and Conclusions</h3>
@@ -139,38 +141,39 @@ export default function Mensageria() {
                 client engagement while streamlining salon operations.
               </p>
               <h3>Setting Objectives</h3>
-              <p>
+              <h4>
                 The primary objective was to develop a WhatsApp automation tool
                 that:
-              </p>
+              </h4>
               <ul>
                 <li>
-                  Reduces No-Shows: Significantly cut down the rate of missed
-                  appointments.
+                  <strong>Reduces No-Shows:</strong> Significantly cut down the
+                  rate of missed appointments.
                 </li>
                 <li>
-                  Saves Time: Free up valuable time for salon professionals that
-                  was previously spent on manual messaging.
+                  <strong>Saves Time:</strong> Free up valuable time for salon
+                  professionals that was previously spent on manual messaging.
                 </li>
                 <li>
-                  Enhances Client Experience: Provide a more reliable and
-                  personalized communication channel for clients.
+                  <strong>Enhances Client Experience:</strong> Provide a more
+                  reliable and personalized communication channel for clients.
                 </li>
               </ul>
               <h3>Defining User Needs</h3>
-              <p>Through our research, we identified the key user needs:</p>
+              <h4>Through our research, we identified the key user needs:</h4>
               <ul>
                 <li>
-                  Ease of Use: The tool must be intuitive and straightforward
-                  for salon staff with varying levels of tech-savviness.
+                  <strong>Ease of Use:</strong> The tool must be intuitive and
+                  straightforward for salon staff with varying levels of
+                  tech-savviness.
                 </li>
                 <li>
-                  Customization: Ability to personalize messages to maintain the
-                  unique voice of each salon.
+                  <strong>Customization:</strong> Ability to personalize
+                  messages to maintain the unique voice of each salon.
                 </li>
                 <li>
-                  Reliability: A robust system that salon owners can rely on for
-                  consistent communication.
+                  <strong>Reliability:</strong> A robust system that salon
+                  owners can rely on for consistent communication.
                 </li>
               </ul>
               <img src='assets/img/mensageria/defining-img1.png' alt='' />
@@ -185,38 +188,42 @@ export default function Mensageria() {
                 design, and integration with existing salon management software.
               </p>
               <h3>Concept Development</h3>
-              <p>From these ideas, we developed several concepts:</p>
+              <h4>From these ideas, we developed several concepts:</h4>
               <ol>
                 <li>
-                  Automated Reminder System: A system that automatically sends
-                  appointment reminders 24 hours before the scheduled time.
+                  <strong>Automated Reminder System:</strong> A system that
+                  automatically sends appointment reminders 24 hours before the
+                  scheduled time.
                 </li>
                 <li>
-                  Birthday and Special Occasion Messages: Personalized greetings
-                  for clients on special occasions, enhancing client
-                  relationships.
+                  <strong>Birthday and Special Occasion Messages:</strong>{' '}
+                  Personalized greetings for clients on special occasions,
+                  enhancing client relationships.
                 </li>
                 <li>
-                  Feedback and Follow-up Messages: Post-appointment messages to
-                  gather feedback and encourage future bookings.
+                  <strong>Feedback and Follow-up Messages:</strong>{' '}
+                  Post-appointment messages to gather feedback and encourage
+                  future bookings.
                 </li>
               </ol>
               <h3>Prototype Sketches and Wireframes</h3>
-              <p>
+              <h4>
                 We created initial sketches and wireframes for the proposed
                 features. These included:
-              </p>
+              </h4>
               <ul>
                 <li>
-                  Dashboard: For salon owners to set up and manage automated
-                  messages.
+                  <strong>Dashboard:</strong> For salon owners to set up and
+                  manage automated messages.
                 </li>
                 <li>
-                  Template Editor: Allowing customization of message templates.
+                  <strong>Template Editor:</strong> Allowing customization of
+                  message templates.
                 </li>
                 <li>
-                  Analytics Panel: To track the effectiveness of the automated
-                  messages in terms of client engagement and reduced no-shows.
+                  <strong>Analytics Panel:</strong> To track the effectiveness
+                  of the automated messages in terms of client engagement and
+                  reduced no-shows.
                 </li>
               </ul>
               <h3>Selection and Refinement</h3>
@@ -239,26 +246,27 @@ export default function Mensageria() {
               </h4>
               <ol>
                 <li>
-                  Automated Appointment Reminders: A system that sends automated
-                  reminders to clients for their upcoming appointments. This
-                  feature is designed to significantly reduce no-shows by
-                  ensuring clients remember their appointments.
+                  <strong>Automated Appointment Reminders:</strong> A system
+                  that sends automated reminders to clients for their upcoming
+                  appointments. This feature is designed to significantly reduce
+                  no-shows by ensuring clients remember their appointments.
                 </li>
                 <li>
-                  Personalized Greetings for Special Occasions: The tool allows
-                  salons to send personalized messages for clients' birthdays
-                  and other special occasions, fostering a stronger client-salon
-                  relationship.
+                  <strong>Personalized Greetings for Special Occasions:</strong>{' '}
+                  The tool allows salons to send personalized messages for
+                  clients' birthdays and other special occasions, fostering a
+                  stronger client-salon relationship.
                 </li>
                 <li>
-                  Customizable Templates: Salon owners can customize the message
-                  templates to reflect their brand's voice and tone, providing a
-                  personal touch to automated messages.
+                  <strong>Customizable Templates:</strong> Salon owners can
+                  customize the message templates to reflect their brand's voice
+                  and tone, providing a personal touch to automated messages.
                 </li>
                 <li>
-                  Integration with Salon Management Software: The system
-                  seamlessly integrates with existing salon management tools,
-                  ensuring a smooth addition to the salon's workflow.
+                  <strong>Integration with Salon Management Software:</strong>{' '}
+                  The system seamlessly integrates with existing salon
+                  management tools, ensuring a smooth addition to the salon's
+                  workflow.
                 </li>
               </ol>
               <img src='assets/img/mensageria/concept-img1.png' alt='' />
@@ -282,25 +290,26 @@ export default function Mensageria() {
               </h4>
               <ol>
                 <li>
-                  Reduction in No-Shows: Salons reported a significant decrease
-                  in no-show rates, with some experiencing up to a 70%
-                  reduction.
+                  <strong>Reduction in No-Shows:</strong> Salons reported a
+                  significant decrease in no-show rates, with some experiencing
+                  up to a 70% reduction.
                 </li>
                 <li>
-                  Time Efficiency: Salon staff noted a substantial time saving,
-                  as they no longer needed to manually send reminders or
-                  greetings.
+                  <strong>Time Efficiency:</strong> Salon staff noted a
+                  substantial time saving, as they no longer needed to manually
+                  send reminders or greetings.
                 </li>
                 <li>
-                  Enhanced Client Engagement: Personalized messages and timely
-                  reminders led to an increase in client satisfaction and
-                  loyalty. Positive feedback from clients indicated a more
-                  connected and personalized experience.
+                  <strong>Enhanced Client Engagement:</strong> Personalized
+                  messages and timely reminders led to an increase in client
+                  satisfaction and loyalty. Positive feedback from clients
+                  indicated a more connected and personalized experience.
                 </li>
                 <li>
-                  Business Growth: The tool contributed to an overall increase
-                  in efficiency and customer satisfaction, which in turn led to
-                  an uptick in repeat bookings and referrals.
+                  <strong>Business Growth:</strong> The tool contributed to an
+                  overall increase in efficiency and customer satisfaction,
+                  which in turn led to an uptick in repeat bookings and
+                  referrals.
                 </li>
               </ol>
               <h3>User Feedback and Future Enhancements</h3>
