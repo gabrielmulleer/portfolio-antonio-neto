@@ -263,6 +263,43 @@ export default function Mensageria() {
             </section>
             <section>
               <h2>Result</h2>
+              <h3>Implementation and Impact</h3>
+              <h4>
+                After multiple iterations and refinements based on user
+                feedback, the WhatsApp automation tool was launched. The key
+                results were:
+              </h4>
+              <ol>
+                <li>
+                  Reduction in No-Shows: Salons reported a significant decrease
+                  in no-show rates, with some experiencing up to a 70%
+                  reduction.
+                </li>
+                <li>
+                  Time Efficiency: Salon staff noted a substantial time saving,
+                  as they no longer needed to manually send reminders or
+                  greetings.
+                </li>
+                <li>
+                  Enhanced Client Engagement: Personalized messages and timely
+                  reminders led to an increase in client satisfaction and
+                  loyalty. Positive feedback from clients indicated a more
+                  connected and personalized experience.
+                </li>
+                <li>
+                  Business Growth: The tool contributed to an overall increase
+                  in efficiency and customer satisfaction, which in turn led to
+                  an uptick in repeat bookings and referrals.
+                </li>
+              </ol>
+              <h3>User Feedback and Future Enhancements</h3>
+              <p>
+                Feedback from users was overwhelmingly positive, with many
+                highlighting the ease of use and effectiveness of the tool.
+                Based on this feedback, future enhancements were planned,
+                including more advanced customization options and integration
+                with additional communication platforms.
+              </p>
             </section>
           </div>
         </div>
