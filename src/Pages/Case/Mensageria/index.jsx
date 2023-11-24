@@ -2,7 +2,7 @@ import styles from './Mensageria.module.scss';
 export default function Mensageria() {
   return (
     <>
-      <div className={styles.wrapper}>
+      <div id='topsection' className={styles.wrapper}>
         <img
           src='assets/img/mensageria/mensageria-banner.png'
           alt='Mensageria Banner'
@@ -41,29 +41,19 @@ export default function Mensageria() {
         </div>
         <div className={styles.wrapper__container}>
           <nav className={styles.wrapper__container_sidebar}>
-            <ul>
-              <li>
-                <a href='#challenge'>Challenge</a>
-              </li>
-              <li>
-                <a href='#research'>Research</a>
-              </li>
-              <li>
-                <a href='#defining'>Defining</a>
-              </li>
-              <li>
-                <a href='#ideation'>Ideation</a>
-              </li>
-              <li>
-                <a href='#concept'>Concept</a>
-              </li>
-              <li>
-                <a href='#result'>Result</a>
-              </li>
-              <li>
-                <a href='#back-to-top'>Back to top</a>
-              </li>
-            </ul>
+            <a href='#challenge'>Challenge</a>
+
+            <a href='#research'>Research</a>
+
+            <a href='#defining'>Defining</a>
+
+            <a href='#ideation'>Ideation</a>
+
+            <a href='#concept'>Concept</a>
+
+            <a href='#result'>Result</a>
+
+            <a href='#topsection'>Back to top</a>
           </nav>
           <div className={styles.wrapper__container_content}>
             <section id='challenge'>
@@ -91,6 +81,10 @@ export default function Mensageria() {
             <section id='research'>
               <h2>Research</h2>
               <h3>Methodological Approach</h3>
+              <h4>
+                The research process was comprehensive, involving multiple
+                stages:
+              </h4>
               <ol type='1'>
                 <li>
                   Quantitative Survey: Conducting an online survey with salon
