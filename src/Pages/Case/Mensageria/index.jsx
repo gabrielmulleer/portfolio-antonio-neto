@@ -36,6 +36,20 @@ export default function Mensageria() {
             </div>
           </div>
         </div>
+        <div className={styles.wrapper__container}>
+          <nav className={styles.wrapper__container_sidebar}>
+            <ul>
+              <li>Challenge</li>
+              <li>Research</li>
+              <li>Defining</li>
+              <li>Ideation</li>
+              <li>Concept</li>
+              <li>Result</li>
+              <li>Back to top</li>
+            </ul>
+          </nav>
+          <div className={styles.wrapper__container_content}></div>
+        </div>
       </div>
     </>
   );
