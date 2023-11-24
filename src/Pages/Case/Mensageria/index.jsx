@@ -166,6 +166,55 @@ export default function Mensageria() {
             </section>
             <section>
               <h2>Ideation</h2>
+              <h3>Brainstorming Sessions</h3>
+              <p>
+                We conducted brainstorming sessions with UX designers,
+                developers, and stakeholders, generating a wide range of ideas.
+                Key themes included automation algorithms, user interface
+                design, and integration with existing salon management software.
+              </p>
+              <h3>Concept Development</h3>
+              <p>From these ideas, we developed several concepts:</p>
+              <ol>
+                <li>
+                  Automated Reminder System: A system that automatically sends
+                  appointment reminders 24 hours before the scheduled time.
+                </li>
+                <li>
+                  Birthday and Special Occasion Messages: Personalized greetings
+                  for clients on special occasions, enhancing client
+                  relationships.
+                </li>
+                <li>
+                  Feedback and Follow-up Messages: Post-appointment messages to
+                  gather feedback and encourage future bookings.
+                </li>
+              </ol>
+              <h3>Prototype Sketches and Wireframes</h3>
+              <p>
+                We created initial sketches and wireframes for the proposed
+                features. These included:
+              </p>
+              <ul>
+                <li>
+                  Dashboard: For salon owners to set up and manage automated
+                  messages.
+                </li>
+                <li>
+                  Template Editor: Allowing customization of message templates.
+                </li>
+                <li>
+                  Analytics Panel: To track the effectiveness of the automated
+                  messages in terms of client engagement and reduced no-shows.
+                </li>
+              </ul>
+              <h3>Selection and Refinement</h3>
+              <p>
+                The ideas were refined based on feasibility, potential impact,
+                and alignment with user needs. The automated reminder system and
+                birthday messages were prioritized for the initial development
+                phase, with the feedback system planned for a later update.
+              </p>
             </section>
             <section>
               <h2>Concept</h2>
