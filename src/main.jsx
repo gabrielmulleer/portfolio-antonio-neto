@@ -1,10 +1,33 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+import Main from './Pages/Main';
+import Mensageria from './Pages/Case/Mensageria';
+import Error from './Pages/Error';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <Error />,
+    children: [
+      {
+        path: '/',
+        element: <Main />,
+      },
+      {
+        path: '/mensageria',
+        element: <Mensageria />,
+      },
+    ],
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
