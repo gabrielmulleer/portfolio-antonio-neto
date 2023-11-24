@@ -59,9 +59,15 @@ border-radius: 0.75rem;
 &__img{
     flex-grow: 1;
     object-fit: cover;
+    max-width: 48rem;
+    aspect-ratio: 1;
     border-radius: 0.75rem 0.75rem 0rem 0rem;
     @media (min-width: $screen-lg-min) {
+        max-width: 18.75rem;
         border-radius: 0rem 0.75rem 0.75rem 0rem;
+      }
+      @media (min-width: $screen-xl-min) {
+        max-width: 25rem;
       }
 }
 }
