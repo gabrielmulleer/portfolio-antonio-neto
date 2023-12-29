@@ -16,14 +16,13 @@ export default function Header() {
   useEffect(() => {
     const handleResize = () => {
       setWidth(window.innerWidth >= 768);
-      setIsOpen(false);
     };
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-  console.log(width);
+
   return (
     <>
       <header className={styles.wrapper}>
@@ -48,7 +47,7 @@ export default function Header() {
         <span
           className={classNames({
             [styles.overlay]: true,
-            [styles[`overlay--active`]]: isOpen == true,
+            [styles[`overlay--active`]]: isOpen && !width == true,
           })}
         ></span>
       </header>
