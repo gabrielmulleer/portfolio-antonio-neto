@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import styles from './Dropdown.module.scss';
-import Links from './Links';
+import Links from '../Links';
 import classNames from 'classnames';
 
 export default function Dropdown({ active }) {

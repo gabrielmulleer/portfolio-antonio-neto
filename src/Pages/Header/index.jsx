@@ -1,16 +1,28 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from './Header.module.scss';
 import { IoIosMenu } from 'react-icons/io';
 import classNames from 'classnames';
-import Dropdown from './Dropdown';
+import Dropdown from './Menu/Dropdown';
+import Menu from './Menu';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [width, setWidth] = useState(window.innerWidth >= 768);
 
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
-  console.log(isOpen);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth >= 768);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+  console.log(width);
   return (
     <>
       <header className={styles.wrapper}>
@@ -29,7 +41,8 @@ export default function Header() {
             className={styles.wrapper__icon}
             onClick={handleClick}
           />
-          <Dropdown active={isOpen} />
+          {width || <Dropdown active={isOpen} />}
+          {!width || <Menu />}
         </div>
       </header>
     </>
