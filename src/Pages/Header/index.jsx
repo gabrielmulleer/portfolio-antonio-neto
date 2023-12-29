@@ -44,11 +44,13 @@ export default function Header() {
           {width || <Dropdown active={isOpen} />}
           {!width || <Menu />}
         </div>
+
         <span
           className={classNames({
             [styles.overlay]: true,
             [styles[`overlay--active`]]: isOpen && !width == true,
           })}
+          onClick={handleClick}
         ></span>
       </header>
     </>
