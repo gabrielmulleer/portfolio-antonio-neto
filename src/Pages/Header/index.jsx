@@ -16,6 +16,7 @@ export default function Header() {
   useEffect(() => {
     const handleResize = () => {
       setWidth(window.innerWidth >= 768);
+      setIsOpen(false);
     };
     window.addEventListener('resize', handleResize);
     return () => {
@@ -44,6 +45,12 @@ export default function Header() {
           {width || <Dropdown active={isOpen} />}
           {!width || <Menu />}
         </div>
+        <span
+          className={classNames({
+            [styles.overlay]: true,
+            [styles[`overlay--active`]]: isOpen == true,
+          })}
+        ></span>
       </header>
     </>
   );
