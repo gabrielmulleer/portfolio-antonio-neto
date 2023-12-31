@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import styles from './Header.module.scss';
-import { IoIosMenu } from 'react-icons/io';
+import { IoIosMenu, IoIosClose } from 'react-icons/io';
 import classNames from 'classnames';
 import Dropdown from './Menu/Dropdown';
 import Menu from './Menu';
@@ -13,6 +13,9 @@ export default function Header() {
     setIsOpen(!isOpen);
   };
 
+  const handleOverlayClick = () => {
+    setIsOpen(false);
+  };
   useEffect(() => {
     const handleResize = () => {
       setWidth(window.innerWidth >= 768);
@@ -35,12 +38,21 @@ export default function Header() {
             />
             <h3 className={styles.wrapper__logo_title}>Antônio Neto</h3>
           </div>
-          <IoIosMenu
-            size='30px'
-            color='#333'
-            className={styles.wrapper__icon}
-            onClick={handleClick}
-          />
+          {!isOpen ? (
+            <IoIosMenu
+              size='30px'
+              color='#333'
+              className={styles.wrapper__icon}
+              onClick={handleClick}
+            />
+          ) : (
+            <IoIosClose
+              size='30px'
+              color='#333'
+              className={styles.wrapper__icon}
+              onClick={handleClick}
+            />
+          )}
           {width || <Dropdown active={isOpen} />}
           {!width || <Menu />}
         </div>
@@ -48,9 +60,9 @@ export default function Header() {
         <span
           className={classNames({
             [styles.overlay]: true,
-            [styles[`overlay--active`]]: isOpen && !width == true,
+            [styles[`overlay--active`]]: isOpen && !width,
           })}
-          onClick={handleClick}
+          onClick={handleOverlayClick}
         ></span>
       </header>
     </>

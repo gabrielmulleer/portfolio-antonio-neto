@@ -53,16 +53,19 @@
 
 .overlay {
   width: -webkit-fill-available;
-  height: -webkit-fill-available;
+  height: 100dvh;
+  max-height: -webkit-fill-available;
   position: fixed;
   left: 0;
   background-color: black;
   z-index: -2;
   opacity: 0;
-  display: none;
-  // transition: opacity 0.5s ease-in-out;
+  // display: none;
+  transition: all 0.5s ease-in-out;
+  pointer-events: none;
   &--active {
-    display: block;
+    // display: block;
     opacity: 0.3;
+    pointer-events: fill;
   }
 }
