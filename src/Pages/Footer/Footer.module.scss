@@ -15,7 +15,12 @@
     padding: 2rem 9rem;
   }
   &__copyright {
+    text-align: center;
     color: $Gray-2;
+    font-size: 13px;
+    a {
+      color: $Black;
+    }
   }
   &__icons {
     display: flex;
